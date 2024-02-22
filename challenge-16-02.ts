@@ -8,7 +8,7 @@
     changeEnough([25 cents, 10 cents, 5 cents, 1 cent], price)
 */
 
-export function changeEnough(money: number[], price: number) {
+function changeEnough(money: number[], price: number) {
     const totalChange = (money[0] * 25 + money[1] * 10 + money[2] * 5 + money[3]) / 100;
     return totalChange >= price;
 }

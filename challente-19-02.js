@@ -1,3 +1,7 @@
+/*
+    Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+*/
+
 const generateParentheses = (n) => {
     const currentString = [];
     const validAnswers = [];
@@ -31,4 +35,3 @@ const generateParentheses = (n) => {
 
 console.log('Test 1... ', generateParentheses(3)) // ["((()))","(()())","(())()","()(())","()()()"]
 console.log('Test 2... ', generateParentheses(1)) // ["()"]
-
