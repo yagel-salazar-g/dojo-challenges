@@ -17,4 +17,3 @@ function lengthOfLongestSubstring (str) {
 console.log('Test 1', lengthOfLongestSubstring("abcabcbb")) // 3
 console.log('Test 2', lengthOfLongestSubstring("bbbbb")) // 1
 console.log('Test 3', lengthOfLongestSubstring("pwwkew")) // 3
-
