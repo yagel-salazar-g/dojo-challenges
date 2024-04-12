@@ -21,4 +21,3 @@ for _ in range(num_iterations):
     player2_strategy = random.choice(['Cooperate', 'Betray'])
 
     outcome_player1, outcome_player2 = prisoner_dilemma(player1_strategy, player2_strategy)
-    # Perform analysis or visualization with outcomes
