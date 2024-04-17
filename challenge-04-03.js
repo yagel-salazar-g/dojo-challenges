@@ -14,4 +14,4 @@ var letterTally = function(str, obj) {
   
   };
   
-  document.write(JSON.stringify(letterTally('potato', {}), null, 2)); // {'p':1, 'o':2, 't':2, 'a':1}
+  document.write(JSON.stringify(letterTally('potato', {}), null, 2));
